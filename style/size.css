@@ -1,0 +1,152 @@
+/* laptop 1025px-1200px*/
+
+@media screen and (max-width: 1200px) {
+    #baner-hading h1 {
+        font-size: 60px;
+    }
+
+    #card-container {
+        gap: 30px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    #chaina-img {
+        width: 70%;
+        object-fit: cover;
+    }
+
+
+}
+
+/* teblet 641px-1024px */
+
+@media screen and (max-width:1024px) {
+    #baner {
+        flex-direction: column-reverse;
+
+    }
+
+    #baner-img {
+        width: 100%;
+    }
+
+    #baner-hading h1 {
+        font-size: 40px;
+    }
+
+    #first-btn button {
+        padding: 8px 16px;
+    }
+
+    #baner-hading {
+        width: 100%;
+    }
+
+    #card-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .card h3 {
+        font-size: 28px;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+
+    #flag-container {
+        flex-direction: column;
+    }
+
+    #chaina-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .flag {
+        width: 100%;
+    }
+
+    #country-name {
+        flex-direction: column;
+    }
+}
+
+/* mobaile 350px-640px */
+
+@media screen and (max-width: 640px) {
+    #baner-hading h1 {
+        font-size: 40px;
+    }
+
+    #baner-hading p {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    #first-btn button {
+        padding: 8px 16px;
+    }
+
+    #service-hading h4 {
+        font-size: 16px;
+    }
+
+    #service-hading h2 {
+        font-size: 28px;
+    }
+
+    #chaina-hading h2 {
+        font-size: 28px;
+    }
+
+    #chaina-hading h4 {
+        font-size: 16px;
+    }
+
+    #coutry-hading h4 {
+        font-size: 16px;
+    }
+
+    #coutry-hading h2 {
+        font-size: 28px;
+    }
+
+    .promt-img img {
+        width: 50%;
+    }
+
+    #others-hading h2 {
+        font-size: 28px;
+
+    }
+
+    #others-hading h4 {
+        font-size: 16px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    #last-hading {
+        font-size: 10px;
+    }
+
+    #last-img {
+        width: 30%;
+        align-items: center;
+    }
+}

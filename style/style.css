@@ -1,441 +1,304 @@
- * {
-     font-family: "Plus Jakarta Sans", sans-serif;
- }
-
- body {
-     min-height: 100vh;
-     background-image: linear-gradient(#ffffff, #ebdcff);
- }
-
- #banner {
-     margin: 100px auto 120px auto;
-     display: flex;
-     border-radius: 40px;
-     border: 2px solid #872bff10;
-     padding: 20px 30px;
-     background-image: url(../images/hero-bg.png);
-     width: 87.5%;
-     justify-content: space-between;
-     align-items: center;
-     background-color: white;
- }
-
- .btn {
-     background-color: #872bff;
-     border: 2px solid #872bff;
-     border-radius: 30px;
-     margin-right: 10px;
-     cursor: pointer;
-     color: white;
-     padding: 16px 32px;
- }
-
- .btn-white {
-
-     border-radius: 30px;
-     margin-right: 10px;
-     border: 2px solid #872bff;
-     cursor: pointer;
-     color: black;
-     padding: 16px 32px;
- }
-
- .banner-image {
-     width: 50%;
- }
-
- .banner-content {
-     width: 50%;
- }
-
- img {
-     width: 100%;
- }
-
- .banner-content * {
-     margin-bottom: 20px;
- }
-
- .banner-content h1 {
-     font-size: 80px;
-     font-weight: bold;
- }
-
- .banner-content h1 span {
-     color: #f411cf;
- }
-
- .banner-content p {
-     font-weight: medium;
-     font-size: 18px;
-     color: #a8a8a8;
- }
-
- #service {
-     text-align: center;
-     width: 87.5%;
-     margin: 0px auto 120px auto;
-     gap: 60px;
- }
-
- #service h4 {
-     color: #f411cf;
-     text-transform: uppercase;
-     font-size: 24px;
-     font-weight: bold;
-     letter-spacing: 4px;
-     margin-bottom: 14px;
- }
-
- .service-card h2 {
-     font-size: semibold;
-     font-size: 28px;
-     margin-bottom: 20px;
- }
-
- #service-card-container {
-     display: flex;
-     justify-content: space-between;
-     gap: 30px;
- }
-
- .service-card {
-     background-color: white;
-     border-radius: 30px;
-     max-width: 350px;
-     text-align: center;
-     padding: 100px 60px;
- }
-
- .service-card img {
-     width: 80px;
-     margin-bottom: 30px;
- }
-
- .service-card h2 {
-     font-size: 28px;
-     font-weight: 20px;
-     margin-bottom: 20px;
- }
-
- .service-card p {
-     color: #a8a8a8;
- }
-
- #spot {
-     width: 87.5%;
-     margin: 0px auto 120px auto;
-
- }
-
- #flag img {
-     width: 100px;
- }
-
- #flag {
-     width: 60%;
- }
-
- #img img {
-     width: 100%;
- }
-
- #spot-hadding {
-     text-align: center;
- }
-
- #spot-hadding h4 {
-     color: #f411cf;
-     text-transform: uppercase;
-     font-size: 24px;
-     font-weight: bold;
-     letter-spacing: 4px;
-     margin-bottom: 14px;
- }
-
- #spot-hadding h2,
- #service h2 {
-     font-size: semibold;
-     font-size: 44px;
-     margin-bottom: 20px;
- }
-
-
- #img-banner {
-     display: flex;
-     justify-content: space-between;
-     gap: 30px;
- }
-
- #img-banner {
-     background-color: white;
-     padding: 48px;
-     border-radius: 30px;
- }
-
- #flag h3 {
-     color: #3a3a3a;
-     font-size: bold;
-     font-weight: 32px;
-     margin-bottom: 12px;
- }
-
- #flag p {
-     margin-bottom: 32px;
-     color: #a8a8a8;
-     line-height: 24px;
-     font-size: 16px;
- }
-
- #country-card-container {
-     display: flex;
-     gap: 30px;
-     flex-wrap: wrap;
-     justify-content: center;
-     margin-bottom: 60px;
- }
-
- #country-card-container h2 {
-     background-color: white;
-     padding: 40px;
-     border-radius: 30px;
- }
-
- #country {
-     width: 87.5%;
-     margin: 0px auto 120px auto;
- }
-
- #button {
-     text-align: center;
- }
-
- .heading-content {
-     text-align: center;
- }
-
- .heading-content h2 {
-     font-weight: bold;
-     font-size: 44px;
-     margin-bottom: 30px;
- }
-
- .heading-content h4 {
-     color: #f411cf;
-     font-weight: bold;
-     font-size: 24px;
-     letter-spacing: 3px;
-     text-transform: uppercase;
-     margin-bottom: 20px;
- }
-
-
- #others-hadding h4 {
-     color: #f411cf;
-     text-transform: uppercase;
-     font-size: 24px;
-     font-weight: bold;
-     letter-spacing: 4px;
-     margin-bottom: 14px;
- }
-
- #others-hadding h2 {
-     font-size: 44px;
-     margin-top: 0px;
-     margin-bottom: 0px;
- }
-
- #others-container {
-     text-align: center;
-     width: 87.5%;
-     margin: 0px auto 120px auto;
- }
-
- .promt {
-     background-color: white;
-     padding: 24px;
-     border-radius: 20px;
-     margin-top: 60px;
- }
-
- .promt p {
-     margin-bottom: 54px;
-     font-size: 16px;
-     color: #3a3a3a;
- }
-
- .promt span {
-     color: #5d5c5c;
- }
-
- .promt h4 {
-     margin-bottom: 0px;
-     font-weight: semibold;
- }
-
- #star-img {
-     display: flex;
-     justify-content: space-between;
- }
-
- #promt-bottom {
-     text-align: center;
- }
-
- #last-container {
-     text-align: center;
-
-     background-color: white;
- }
-
-
- #box {
-     width: 87.5%;
-     display: flex;
-     justify-content: space-between;
-     padding: 20px;
-     margin: 0px auto 120px auto;
- }
-
- #box p {
-     font-size: 16px;
-     color: #3a3a3a;
- }
-
- #last-img {
-
-     border-radius: 20px;
-     gap: 30px;
-     display: flex;
-     padding: 10px;
-     cursor: pointer;
- }
-
-
- .color {
-     background-color: #872bff;
-     border-radius: 18px;
-     width: 30px;
- }
-
- /* lsptop */
- @media screen and (max-width:1200px) {
-     .service-card {
-         padding: 50px 10px;
-     }
-
-     #img img {
-         height: 100%;
-         object-fit: cover;
-         border-radius: 30px;
-     }
-
-     .heading-content h2 {
-         font-size: 28px;
-     }
-
-     #spot-hadding h2 {
-         font-size: 24px;
-     }
-
-     #others-hadding h2 {
-         font-size: 24px;
-     }
- }
-
- /* tablet */
- @media screen and (max-width:1024px) {
-     .banner-content h1 {
-         font-size: 50px;
-     }
-
-     .banner-image {
-         width: 100%;
-     }
-
-     #banner {
-         flex-direction: column-reverse;
-     }
-
-     .banner-content {
-         width: 100%;
-     }
-
-     #service-card-container {
-         flex-direction: column;
-     }
-
-     .service-card {
-         max-width: 100%;
-     }
-
-     #img-banner {
-         flex-direction: column;
-     }
-
-     #flag p {
-         max-width: 100%;
-     }
-
-     #service h2 {
-         font-size: 24px;
-     }
-
-     #banner {
-         flex-direction: column-reverse;
-         text-align: center;
-     }
-
-
-
- }
-
- /* mobail */
- @media screen and (max-width:640px) {
-     #banner {
-         flex-direction: column-reverse;
-         text-align: center;
-     }
-
-     .banner-image {
-         width: 100%;
-     }
-
-     .banner-content h1 {
-         font-size: 25px;
-
-     }
-
-     .banner-content {
-         width: 100%;
-     }
-
-     #country-card-container {
-         text-align: center;
-         flex-direction: column;
-         width: 100%;
-     }
-
-     .btn {
-         padding: 10px 25px;
-     }
-
-     .btn-white {
-         padding: 10px 25px;
-
-     }
-
-     #star-img h4,
-     span {
-         font-size: 10px;
-     }
-
-     #last-hadding p {
-         font-size: 10px;
-     }
-
-     #last-img {
-         width: 100%;
-     }
-
- }
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#ffffff, #ebdcff);
+}
+
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#baner {
+    margin: 100px auto 120px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 87.5%;
+    background-image: url(../images/hero-bg.png);
+    border-radius: 40px;
+    border: solid #ebdcff;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+#baner-img {
+    width: 50%;
+}
+
+#baner-hading {
+    width: 50%;
+}
+
+#baner-hading h1 {
+    font-size: 80px;
+    margin-bottom: 36px;
+}
+
+#baner-hading span {
+    color: #F411CF;
+}
+
+#baner-hading p {
+    color: #A8A8A8;
+    margin-bottom: 36px;
+    letter-spacing: 1px;
+}
+
+.btn {
+    padding: 16px 32px;
+    border-radius: 30px;
+    background-color: #872BFF;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn-white {
+    padding: 16px 32px;
+    border-radius: 30px;
+    color: black;
+    border: 1px solid #872BFF;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+#service {
+    width: 87.5%;
+    margin: 0px auto 120px auto;
+}
+
+#service-hading h4 {
+    color: #F411CF;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+#service-hading h2 {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+#card-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 30px;
+}
+
+.card {
+    max-width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.card img {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.card h3 {
+    font-size: 24px;
+}
+
+.card p {
+    color: #A8A8A8;
+    font-size: 20px;
+}
+
+#chaina-baner {
+    width: 87.5%;
+    margin: 0px auto 120px auto;
+}
+
+#chaina-hading h4 {
+    color: #F411CF;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+#chaina-hading h2 {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+#flag-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: white;
+    border-radius: 30px;
+    gap: 32px;
+    align-items: center;
+}
+
+#flag-container p {
+    color: #232323;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+#flag-container h3 {
+    font-size: 32px;
+    margin-bottom: 12px;
+    color: #3e3d3d;
+}
+
+.flag img {
+    margin-bottom: 12px;
+    max-width: 20%;
+}
+
+
+#chaina-img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.flag {
+    width: 50%;
+}
+
+#country-benar {
+    width: 87.5%;
+    margin: 0px auto 120px auto;
+
+}
+
+#coutry-hading h4 {
+    color: #F411CF;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+#coutry-hading h2 {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#country-name {
+    margin-top: 0px;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+#country-name h2 {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+#country-button {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#others-baner {
+    width: 87.5%;
+    margin: 0px auto 120px auto;
+}
+
+#others-hading h4 {
+    color: #F411CF;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+#others-hading h2 {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+#first-promt {
+    background-color: white;
+    padding: 14px 14px;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #3e3d3d;
+    font-size: 14px;
+
+}
+
+#second-promt {
+    background-color: white;
+    padding: 14px 14px;
+    border-radius: 16px;
+    text-align: center;
+    color: #3e3d3d;
+    font-size: 14px;
+}
+
+.promt-botom {
+    display: flex;
+    justify-content: center;
+}
+
+.promt-botom h5 {
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.promt-botom p {
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.promt-img img {
+    opacity: 50%;
+    width: 20%;
+}
+
+#last-container {
+    background-color: white;
+    margin: 0px;
+}
+
+#last-baner {
+    width: 87.5%;
+    margin: 0px auto 500px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#last-hading {
+    color: #3e3d3d;
+
+}
+
+#last-img {
+    display: flex;
+    gap: 32px;
+    cursor: pointer;
+}
